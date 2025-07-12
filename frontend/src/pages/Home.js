@@ -3,12 +3,12 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Tasks from '../components/Tasks';
 import MainLayout from '../layouts/MainLayout';
-import PerfumeImage5 from './images/p1.jpg';
-import PerfumeImage6 from './images/p2.webp';
-import PerfumeImage7 from './images/p3.png';
+
+import PerfumeImage6 from './images/p2.jpg';
+import PerfumeImage7 from './images/p3.jpg';
 import PerfumeImage8 from './images/p4.webp';
 import PerfumeImage9 from './images/p5.webp';
-import PerfumeImage10 from './images/p6.jpg';
+import PerfumeImage10 from './images/p6.avif';
 
 const Home = () => {
 
@@ -50,12 +50,12 @@ const Home = () => {
     </div>
         <div className='i'>
         <center>
-       <img src={PerfumeImage5} alt="Perfume" style={{width:'100px' , height:'100px' , marginLeft:'100px' , borderRadius:'50px'}} />
-        <img src={PerfumeImage6} alt="Perfume" style={{width:'100px' , height:'100px', marginLeft:'100px' , borderRadius:'50px' }} />
-         <img src={PerfumeImage7} alt="Perfume" style={{width:'100px' , height:'100px'  , marginLeft:'100px' , borderRadius:'50px'}} />
-        <img src={PerfumeImage8} alt="Perfume" style={{width:'100px' , height:'100px' , marginLeft:'100px' , borderRadius:'50px'}} />
-         <img src={PerfumeImage9} alt="Perfume" style={{width:'100px' , height:'100px' , marginLeft:'100px' , borderRadius:'50px'}} />
-          <img src={PerfumeImage10} alt="Perfume" style={{width:'100px' , height:'100px' , marginLeft:'100px' , borderRadius:'50px'}} />
+   
+        <img src={PerfumeImage6} alt="Perfume" style={{width:'150px' , height:'150px', marginLeft:'100px' , borderRadius:'50px' }} />
+         <img src={PerfumeImage7} alt="Perfume" style={{width:'150px' , height:'150px'  , marginLeft:'100px' , borderRadius:'50px'}} />
+        <img src={PerfumeImage8} alt="Perfume" style={{width:'150px' , height:'150px' , marginLeft:'100px' , borderRadius:'50px'}} />
+         <img src={PerfumeImage9} alt="Perfume" style={{width:'150px' , height:'150px' , marginLeft:'100px' , borderRadius:'50px'}} />
+          <img src={PerfumeImage10} alt="Perfume" style={{width:'150px' , height:'150px' , marginLeft:'100px' , borderRadius:'50px'}} />
        </center>
     </div>
       </MainLayout>
