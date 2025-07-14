@@ -12,9 +12,7 @@
     "build": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend",
     "start": "cd backend && node app.js"
   },
-  "keywords": ["MERN", "Tasks","Task manager", "Full stack application"],
-  "author": "Sugasri",
-  "license": "MIT",
+  "keywords": ["MERN", "Tasks","Task manager app", "Full stack application"],
   "devDependencies": {
     "concurrently": "^7.1.0"
   }
