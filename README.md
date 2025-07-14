@@ -1,9 +1,7 @@
 # MERN Task Manager
 
 A MERN application for basic tasks management.
-(![image](https://new-image-link.com/Task.png)
-
-)
+![image](https://user-images.githubusercontent.com/Task.png)
 
 ## Table of Contents
 
