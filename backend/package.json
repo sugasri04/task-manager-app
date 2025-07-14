@@ -1,5 +1,5 @@
 {
-  "name": "mern-task-manager-backend",
+  "name": "mern-task-manager-app-backend",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
